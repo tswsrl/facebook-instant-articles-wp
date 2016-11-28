@@ -1,8 +1,12 @@
 {
+    "name": "tsw/facebook-instant-articles-wp",
+    "author": ["Automattic", "Michele Montagner <michele.montagner@tsw.it>"],
+    "type": "wordpress-plugin",
     "require": {
         "php": ">=5.4",
         "facebook/graph-sdk": "~5.0",
         "apache/log4php": "2.3.0",
-        "facebook/facebook-instant-articles-sdk-php": "^1.5.0"
+        "facebook/facebook-instant-articles-sdk-php": "^1.5.0",
+        "composer/installers": "^1.2"
     }
 }

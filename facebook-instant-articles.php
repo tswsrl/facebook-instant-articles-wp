@@ -23,9 +23,6 @@ if ( version_compare( PHP_VERSION, '5.4', '<' ) ) {
 	return;
 } else {
 
-	$autoloader = require __DIR__ . '/vendor/autoload.php';
-	$autoloader->add( 'Facebook\\', __DIR__ . '/vendor/facebook/facebook-instant-articles-sdk-php/src' );
-
 	// Configures log to go through console.
 	\Logger::configure(
 		array(
